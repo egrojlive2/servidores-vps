@@ -1,0 +1,355 @@
+{
+  "input": {
+    "text": ""
+  },
+  "context": {
+    "cliente": {
+      "visitante": true,
+      "agendacion_fibra": {
+        "candidato_migracion": null
+      },
+      "conectado_red_tmx": false,
+      "domicilio_confirmado": false,
+      "login": true,
+      "ciudad": null,
+      "correo": "nacaramayo@outlook.es",
+      "nombre": "naum",
+      "paterno": "dias",
+      "telefono": "8332156244",
+      "contrasena": "********",
+      "activacion_cuenta": "P",
+      "ip": "169.62.231.123",
+      "puerto": 58138,
+      "telefonos_agrupados": [
+        {
+          "tipoActivacion": "IP",
+          "fechaActivacion": "04-11-2022 16:33:58",
+          "telefono": "8332156244"
+        }
+      ]
+    },
+    "security_context": {
+      "telefono": "",
+      "nombre": "",
+      "tema_ayuda": "Soporte",
+      "tema_select": "",
+      "session_id_interact": "12D46D367B6B42898C94B37AA796DCEE",
+      "start_conversation": "0",
+      "os_name": "Windows",
+      "browser": "Chrome",
+      "browser_version": "107.0.0.0",
+      "ambiente": "mau",
+      "user_telefono": "",
+      "userId": "",
+      "correo": "",
+      "celular": "",
+      "client_authenticated": false,
+      "ip": "10.205.59.163",
+      "port": 9797,
+      "paths": {
+        "invoice": "/api/va/invoice/"
+      },
+      "orchestrator_url": "https://watson-orchestrator-channelmiddleware.mybluemix.net",
+      "params_transfer": null
+    },
+    "communication_context": {
+      "channel": {
+        "channel_type": "telmexcom",
+        "client_profile": "residencial"
+      },
+      "tema_url": "https://telmex.com/web/asistencia/hogar-mi-telmex",
+      "nombre_form": "",
+      "nombre_campo_form": "",
+      "campos_form": [
+        {
+          "nombre_campo": "ultimo_campo_visitado",
+          "valor_campo": ""
+        }
+      ]
+    },
+    "workspace_id": "ffe73d46-d05d-4a08-98c6-2384144caa38",
+    "conversation_id": "88918134-c0f3-4399-84c0-190de1bb1e5c",
+    "system": {
+      "initialized": true,
+      "dialog_stack": [
+        {
+          "dialog_node": "node_2_1528230892398"
+        }
+      ],
+      "dialog_turn_counter": 11,
+      "dialog_request_counter": 11,
+      "timezone": "America/Mexico_City",
+      "_node_output_map": {
+        "node_2_1543530044713": {
+          "0": [
+            0
+          ],
+          "1": [
+            0
+          ]
+        },
+        
+        "response_1_1595469787945": [
+          0,
+          0,
+          1
+        ],
+        "response_6_1576868344538": {
+          "0": [
+            0,
+            1,
+            0
+          ]
+        },
+        "response_4_1578528014810": {
+          "0": [
+            0
+          ]
+        },
+        "node_23_1524161127815": {
+          "0": [
+            0
+          ],
+          "1": [
+            0
+          ]
+        },
+        "node_2_1528230892398": [
+          0
+        ]
+      },
+      "last_branch_node": "node_1_1511808801361"
+    },
+    "w": "Â¡Aumentamos la velocidad de nuestros paquetes, *mÃ¡s velocidad mismo precio*! ðŸš€",
+    "cuc": {
+      "Perfil": null,
+      "Adicional": {
+        "Correo": null,
+        "Celular": null,
+        "NombreContacto": null,
+        "ApellidoMaterno": null,
+        "ApellidoPaterno": null,
+        "CorreoElectronico2": null,
+        "ParentescoConTitular": null
+      },
+      "CodigoCUC": null,
+      "Principal": {
+        "Edad": null,
+        "Celular": null,
+        "NomFactura": null,
+        "CorreoElectronico": null
+      },
+      "banderaCel": null
+    },
+    "log": [
+      " Inicializo en Soporte -> ",
+      "[Tema ayuda] tema_ayuda = Soporte",
+      "[Tema url] url = null",
+      "[p_modem] Variables de Soporte -> ",
+      "[p_modem] Valido Numero del Cliente -> ",
+      "Captura de nÃºmero de telÃ©fono",
+      "[8332156244] Prevalidaciones -> Confirmo el nÃºmero que escribiÃ³ el cliente ",
+      "[] Prevalidaciones -> Consulto el tipo de servicio ",
+      "[] Consulto Tipo Servicio -> "
+    ],
+    "flow": "S0009",
+    "form": null,
+    "gral": "Â¡Aumentamos la velocidad de nuestros paquetes, mÃ¡s velocidad mismo precio! ðŸš€",
+    "router": {
+      "intentos": {
+        "cuenta": 0
+      },
+      "tipo_servicio": null
+    },
+    "browser": "Windows - Chrome",
+    "molesto": {
+      "cuenta": 0,
+      "limite": 2
+    },
+    "soporte": {
+      "reanudacion": null,
+      "ifr": null,
+      "oui": null,
+      "VelUp": "10",
+      "model": "desconocido",
+      "orden": {
+        "memo": null
+      },
+     
+     
+
+      
+      "codigoBaNa": null,
+      "statusPing": "Complete",
+      "voz_enable": "SIN VOZ",
+      "wpsEnabled": "1",
+      "BSI_Tarjeta": "2",
+      "Estabilidad": null,
+      "NumeroSerie": "HW1821E3LJ8X",
+      "acc_calidad": {
+        "fecha_bci": null,
+        "migracion_ftth": null,
+        "mover_vdsl_ipd": null,
+        "mover_vdsl_tba": null,
+        "migracion_ipdslam": null,
+        "subir_perfil_bras": null,
+        "gestionar_servicio": null,
+        "rehabilitacion_qos": null,
+        "rehabilitacion_vel": null,
+        "bajar_perfil_acceso": null,
+        "eliminar_saturacion": null,
+        "subir_perfil_acceso": null,
+        "cambiar_a_modem_vdsl": null,
+        "migracion_perfil_vdsl": null,
+        "solucion_distrito_qos": null,
+        "solucion_distrito_vel": null,
+        "eliminar_inconsistencia": null,
+        "cambiar_a_modem_dualband": null,
+        "eliminar_restriccion_inc": null,
+        "cambiar_a_modem_no_obsoleto": null
+      },
+      
+
+     
+      "intentos_reset_logico": {
+        "cuenta": 0,
+        "limite": 3
+      },
+      
+      
+      "velocidadContratadaDDQ": null,
+      "BSI_FECHA_ULTIMO_EVENTO": "2022-11-06 12:00:11",
+      "cod_pqt_contratado_real": null,
+      "coincide_puertos_dropid": null,
+      "comparacion_velocidades": null,
+      "diagnosticador_solucion": null,
+      "interconexion_ocupacion": null,
+      "list_dispositivos_red1T": [],
+      "list_dispositivos_red2T": [],
+      "prueba_web_masivo_listo": null,
+      "diagnosticos_secundarios": [],
+      
+      "seguridad_activada_wifi1": "true",
+      "seguridad_activada_wifi2": null,
+      "seguridad_protocol_wifi1": "WPA2-Personal",
+      
+      "codigo_validaciones_financieras": "51",
+      "Entrega": "D",
+      "EntregaM": "D",
+      "MesesAdeudo": "0",
+      "saldoActual": "389.00",
+      "codigodInfin": "IFN53",
+      "saldoVencido": "0.00",
+      "tipoServicio": "1L",
+      "codigoPaquete": "INF19",
+      "descriPaquete": "PAQUETE CONECTES R",
+      "RegimenCliente": "R",
+      "tieneInfinitum": "1",
+      "CalificacionCredito": "E",
+      "tipo_linea": "hogar",
+      "FmasFin": "",
+      "FmasFinC": "",
+      "TFallaMas": "",
+      "FmasBoleta": "",
+      "FmasInicio": "",
+      "leyendacom": "Infinitum VDSL",
+      "FmasBoletaC": "",
+      "FmasHoraFin": "",
+      "FmasInicioC": "",
+      "TecnoAcceso": "TBAVDSL/POTS",
+      "FmasHoraFinC": "",
+      "FmasHoraInic": "",
+      "ValorCliente": "02",
+      "FmasCveMotivo": "",
+      "FmasHoraInicC": "",
+      "TipoDeCliente": "RES",
+      "ValDanioDistr": "",
+      "ValFallaMasiva": "",
+      "TFmasBoleta": "sin_falla",
+      "sesion_radius_up": true,
+      "vel_down_radius": "60.0parsing",
+      "devicesSoportados": 15,
+      "modem_puertos_vsi": 1,
+      "modem_cobertura_MW": 100,
+      "modem_soporta_velocidad": 100
+    },
+    
+    
+    "fase_funnel": "muestro_formulario_personalizacion",
+    "frase_larga": {
+      "io": false,
+      "largo": 140,
+      "confi_nlc": 0.7,
+      "falla_nlc": 0,
+      "confi_ints": 0.5
+    },
+      
+    
+    "timestamp_inicio": "2022-11-26 09:25:22",
+    "messageDerivation": true,
+    "saludo_promo_generico": "Soy tu Asistente Virtual Telmex.",
+    "saludo_promo_vigente_w": "Soy tu Asistente Virtual Telmex.",
+    "contactCenterDerivation": false,
+    "incomprensible_campania": {
+      "cuenta": 0,
+      "limite": 2
+    },
+      
+
+    "tema_ayuda": "Soporte",
+    "tema_url": "https://telmex.com/web/asistencia/hogar-mi-telmex",
+    "generic_flow": "personalizar_modem",
+    "metadata": {
+      "user_id": "88918134-c0f3-4399-84c0-190de1bb1e5c"
+    },
+    "busqueda": "general",
+    "id_random": 1,
+    "questions": {
+      "cuenta": 0
+    },
+    "FechaActualFormat": 61628515200000,
+    "start_chronometer": true,
+    "caso_de_uso_actual": "soporte",
+    "telefono_diferente": false,
+    "monitor_reincidente": {
+      "cuenta": 0
+    },
+    "interact_valor_clave": "WATSON_PERSONALIZA MODEM",
+    "interact_valor_clave_n": "WATSON_PERSONALIZA MODEM",
+    "Pulso360": "PersonalizaciÃ³n WiFi",
+    "form_content": {
+      "ssid": "INFINITUM123",
+      "contrasenaSSID": "PRUEBA#1",
+      "confirmContrasenaSSID": "PRUEBA#1"
+    },
+    "day_actual": "07",
+    "hour_actual": "09",
+    "year_actual": "2022",
+    "month_actual": "11",
+    "minute_actual": "26",
+    "second_actual": "25",
+    "timestamp_actual": "2022-11-26 09:26:25",
+    "delta": 63,
+    "AuxStr": "ODMzMjE1NjI0NA==",
+    "AuxArray": [
+      {
+        "text": "Intentarlo de nuevo ðŸ™�",
+        "value": "Volver a intentarlo"
+      },
+      {
+        "text": "OlvidÃ© mi contraseÃ±a â˜¹ï¸�",
+        "value": "olvide mi contraseÃ±a"
+      },
+      {
+        "text": "No me he registrado ðŸ˜®",
+        "value": "no me he registrado"
+      },
+      {
+        "text": "Necesito ayuda con otro tema ðŸ™‚",
+        "value": "Necesito ayuda con otro tema"
+      }
+    ],
+    "upsell_estatus": "form_iniciarsesion_aceptar",
+    "i": 1
+  }
+}
